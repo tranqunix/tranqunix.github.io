@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Галерея | Tranqunix</title>
+	<meta charset="utf-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113863044-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113863044-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter47641711 = new Ya.Metrika({
+                    id:47641711,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/jquery.min.js"></script>
+	<link href="css/gallary.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Tranqunix, анализатор, микроклимат, ардуино, климат, устройство, приложение">
+	<meta name="description" content="Обеспечение климатических условий Передача сведений пользователям в мобильном приложении">
+  	<link rel="stylesheet" href="slick/slick/slick.css">
+  	<link rel="stylesheet" href="slick/slick/slick-theme.css">
+	<link rel="SHORTCUT ICON" href="images/logo.ico" type="image/x-icon">
+</head>
+<body>
+<!--Menu Start-->
+<div class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>	
+			<div class="logo col-md-3">
+				<h1><a href="index.html" class="main_link"><img src="images/min/logo-min.jpg" class="main_img" alt="Tranqunix"></a></h1>
+			</div>			
+		</div>
+		<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+			<div class="top-nav col-md-9">
+				<ul class="menu">
+					<li><a href="index.html" class="scroll hood">Главная</a></li>
+					<li><a href="product1.html" class="scroll hood">Описание</a></li>
+					<li><a href="gallary.html" class="scroll" id="active">Галарея</a></li>
+					<li><a href="about.html" class="scroll hood">О проекте</a></li>
+				</ul>
+				<button class="btn load">Скачать приложение</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Menu End-->
+	<div class="container">
+		<div class="row center-block">
+		<!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="img_slider center-block">
+					<div class="sl">
+						<div class="slide">
+							<img src="images/vk.png" alt="" class="img-responsive">
+						</div>
+						<div class="slide">
+							<img src="images/facebook.png" alt="" class="img-responsive">
+						</div>	
+						<div class="slide">
+							<img src="images/insta.png" alt="" class="img-responsive">
+						</div>					
+						<div class="slide">
+							<img src="images/youtube.png" alt="" class="img-responsive">
+						</div>					
+					</div>
+				</div>
+			</div>	-->
+			<h3 class="name">Комплектация анализатора микроклимата</h3>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/temper.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Цифровой датчик Температуры и Влажности DHT22</h5>
+					<h4 class="sensor">Диапазон измерений: -40°C - 80°C<br>Диапазон измерений: 0% - 99,9%<br>Напряжение питания: 3,3V - 5,5V</h4>
+				</div>
+			</div>
+			<!--
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/shine.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h3>Датчик света GL5516</h3>
+					<h4 class="sensor">Максимальное напряжение DC: 150V<br>Пик спектральной чувствительности: 560нм<br>Cопротивление при освещении 10Lux: 5-10кОм</h4>
+				</div>
+			</div>	
+		-->
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/arduino-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Arduino Mega 2560</h5>
+					<h4 class="sensor">ОЗУ: 8 Кб<br>Микроконтроллер: ATmega2560-16AU работает на 16 МГц (5V)<br>Рабочее напряжение питания платы: 5V</h4>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/noise-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Датчик звука FC-04</h5>
+					<h4 class="sensor">Напряжение питания: 3.3V - 5V<br>Ток потребления: 1,4мА</h4>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/maket-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Макетная плата Breadboard 170</h5>
+					<h4 class="sensor">Безпаечные соединения радиодеталей</h4>
+				</div>
+			</div>				
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/gas-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Датчик дыма и газов MQ-2</h5>
+					<h4 class="sensor">Напряжение питания: 5 V<br>Потребляемый ток: 110-160 мА</h4>
+				</div>
+			</div>	
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/optic-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Оптический датчик освещённости BH1750 GY-302</h5>
+					<h4 class="sensor">Точность в режиме высокого разрешения: 1 Лк<br>Точность в режиме низкого разрешения: 4 Лк</h4>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/power.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Блок питания TSP-12</h5>
+					<h4 class="sensor">Напряжение питания: 12 V</h4>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/min/display-min.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>Цветной сенсорный экран TFT LCD Shield</h5>
+					<h4 class="sensor">Разрешение экрана: 240x320 пикселей<br>Диагональ: 2.4"</h4>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="photos">
+					<img src="images/wifi.jpg" alt="" class="img-responsive center-block img_sensor">
+					<h5>WI-FI NodeMCU Lua ESP8266 LoLin</h5>
+					<h4 class="sensor">4Мб флэш памяти</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--Footer Start-->
+	<footer>
+		<div class="footer col-md-12">
+			<span>© Tranqunix 2018</span>
+		</div>
+	</footer>
+<!--Footer End-->
+
+<!--Scripts Start--> 	
+	<script src="slick/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/gallary.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--Scripts End-->
+</body>
+</html>
