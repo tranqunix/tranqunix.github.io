@@ -398,6 +398,24 @@ span{
 	margin-top: 2em;
 }
 
+#micro2 {
+	margin-top: 5px;
+}
+
+.description h5 {
+	word-spacing: 2px;
+}
+
+.prog {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.micro {
+	margin-left: 30px;
+}
+
+/*
 .prog, .char {
 	margin-top: 20px;	
 }
@@ -425,3 +443,4 @@ span{
 	font-size:1.3em;
 	padding: 0.5em 0;
 }
+*/

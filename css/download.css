@@ -60,41 +60,11 @@ span{
 	margin: 10px 0 0 7em;
 	height: auto;
 }
-.menu, .load {
-	float: left;
-}
-.load {
-	background: #454545;
-	color: #fff;
-	font-weight: 700;
-	margin-top: 5px;
-	margin-left: 45px;
-	padding: 12px 35px 12px 35px;
-}
-.load:hover {
-	color: rgba(255,255,255,.2);
-}
 .top-nav {
 	padding: 4em 0 0 4em;
 }
 .top-nav ul li {
 	display:inline-block;
-}
-#active::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 4px;
-	background: rgba(0,0,0,0.7);
-	content: '';
-	opacity: 1;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
 }
 .top-nav ul li a {
 	position: relative;
@@ -135,48 +105,6 @@ span{
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
-/*.hood:hover,
-.hood:focus {
-	outline: none;
-}
-/* Effect 1: Brackets 
-.hood::before,
-.hood::after {
-	display: inline-block;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
-	transition: transform 0.3s, opacity 0.2s;
-	color: #ff7f50;
-}
-
-.hood::before {
-	margin-right: 10px;
-	content: '[';
-	-webkit-transform: translateX(20px);
-	-moz-transform: translateX(20px);
-	transform: translateX(20px);
-	color: #ff7f50;
-}
-.hood::after {
-	margin-left: 10px;
-	content: ']';
-	-webkit-transform: translateX(-20px);
-	-moz-transform: translateX(-20px);
-	transform: translateX(-20px);
-	color: #ff7f50;
-}
-.hood:hover::before,
-.hood:hover::after,
-.hood:focus::before,
-.hood:focus::after {
-	opacity: 1;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	transform: translateX(0px);
-	color: #ff7f50;
-}*/
-/*--responsive media-quries--*/
 @media(max-width: 1700px){
 	.navbar {
 		margin-left: 12em;
@@ -190,9 +118,6 @@ span{
 }
 
 @media(max-width: 1394px){
-	.load {
-		margin-left: 20px;
-	}
 	.menu {
 		margin-left: 50px;
 	}
@@ -211,9 +136,6 @@ span{
 }
 
 @media(max-width: 1268px){
-	.load {
-		margin-left: 5px;
-	}
 	.menu {
 		margin-left: 20px;
 	}
@@ -243,81 +165,12 @@ span{
 	}
 }
 
-@media(max-width: 1030px){
-	.load {
-		padding: 10px 20px;
-	}
-}
-
 @media(max-width:538px){
 	.top-nav ul li {
 	display:block;
 	margin-top: 10px;
 	}
-	.load, .menu {
-		float: none;
-	}
-	.load {
-		margin-top: 25px;
-	}
 }
-.service-grid h5{
-	color:#323232;
-	font-size:1.3em;
-	padding: 0.5em 0;
-}
-.services-grid{
-	text-align:center;
-	padding: 4em 0;
- }
-.service-grid img{
-	margin:0 auto;
- }
-.service-grid p{
-	color:#8e8e8e;
-	font-size:1.1em;
-	line-height:1.8em;
-	width: 83%;
-	margin:0 auto;
-}
-.service-top{
-	padding-top:3em;
-}
-
-.img_team {
-	width: 144px;
-	height: 140px;
-}
-
-/*----*/
-
-.grid-team h4{
-	color:#323232;
-	font-size:1.7em;
-	font-family: 'Open Sans', sans-serif;
-	padding: 0.5em 0;
-}
-.grid-team h5{
-	color:#323232;
-	font-size:1.3em;
-	font-weight:700;
-}
-.team-grid{
-	text-align:center;
-	padding: 3em 0;
- }
-.grid-team img{
- margin:0 auto;
- }
-.grid-team p{
-	color:#8e8e8e;
-	font-size:1.1em;
-	line-height:1.8em;
-	width: 80%;
-	margin:0 auto;
-	padding: 0.5em 0;
-}
-
 .footer {
   background: #282C34;
 	padding:3em 0em 0;
@@ -330,9 +183,6 @@ span{
 .menu {
 	margin-left: 0;
 	margin-right: 3em;
-}
-.load {
-	margin-left: 0;
 }
 }
 
@@ -353,9 +203,6 @@ span{
 		margin-bottom: 4%;
 		margin-left: 44%;
 	}
-	.support {
-		margin-top: 45px;
-	}
 	.top-nav {
 		padding-top: 3.5em;
 	}
@@ -368,27 +215,15 @@ span{
 	.scroll {
 		margin: 0 10px 0 20px !important;
 	}
-	.load {
-		margin-left: 15px;
-	}
 }
 
 @media(max-width:768px){
-.services-grid {
-	padding: 1em 0 3em;
-}
-.cont {
-	margin-top: 15px;
-}
 span{
 	margin-bottom: 5%;
 	margin-left: 42%;
 }
 .menu {
 	margin-left: 0;
-}
-.ser {
-	text-align: center !important;
 }
 
 	.navbar {
@@ -403,9 +238,6 @@ span{
 	.menu {
 		margin-top: 5px;
 	}
-	.load {
-		margin-top: 0.3em;
-	}
 	.top-nav {
 		padding-top: 0;
 	}
@@ -415,7 +247,7 @@ span{
 }
 
 @media(max-width: 699px){
-	.menu li, .load {
+	.menu li {
 		display: block !important;
 	}
 	.top-nav {
@@ -427,13 +259,6 @@ span{
 		margin-top: 15px;
 		margin-left: 50px;
 	}
-	#active::after {
-		display: none;
-	}
-	.load {
-		margin-top: 15px;
-		margin-left: 20%;
-	}
 }
 
 @media(max-width: 584px){
@@ -442,9 +267,6 @@ span{
 	}
 }
 @media(max-width: 550px){
-	.load {
-		margin-top: 10px;
-	}
 	.navbar {
 		margin-left: 0;
 	}
@@ -472,41 +294,13 @@ span{
 }
 
 @media(max-width:320px){
-
-span{
-	margin-bottom: 8%;
-	margin-left: 33%;
-}
-
-.service-grid h5 {
-	font-size: 1.1em;
-}
-.service-grid p {
-	font-size: 0.9em;
-	line-height: 1.6em;
-}
-.services-grid {
-	padding: 1em 0 2em;
-}
-.team_name {
-	font-size: 1.4em;
-}
-.grid-team h5 {
-	font-size: 1.1em;
-}
-.grid-team p {
-	font-size: 0.9em;
-	line-height: 1.6em;
-}
-.meet {
-	padding: 0 0 0em;
-}
-.footer {
+	span{
+		margin-bottom: 8%;
+		margin-left: 33%;
+	}
+	.footer {
 	padding: 2em 0em 0;
-}
-.grid-team img {
-	width: 53%;
-}
+	}
 }
 
 @media(max-width:250px){
@@ -516,85 +310,38 @@ span{
 	}
 }
 
-.microclimate {
-	text-align: center;
-	padding: 4em 0;
+
+.google, .windowsphone {
+	border-right: 1.5px solid #282C34;
 }
 
-.microclimate h3 {
-	text-align: left;
+.play {
+	width: 200px;
 }
 
-.microclimate h5 {
-	margin: 0 45px;
+.microsoft {
+	width: 145px;
 }
 
-h5 {
-	color:#323232;
-	font-size:1.2em;
-	padding: 0.5em 0;
-	margin-top: 1em;
-}
-
-.row {
-	margin: 3em 0 3em 0;
-}
-
-.social, .support {
+.appstore {
 	text-align: center;
 }
 
-.social a:hover,
-.social a:focus,
-.social a:active {
-	text-decoration: none !important;
+.apple {
+	width: 160px;
 }
 
-.net {
-	display: block;
-	font-size: 1.3em;
-	width: 150px;
-	margin-top: 10px;
+.iphone {
+	width: 350px;
+	margin: 3em;
 }
 
-.net:hover .img_net {
-  text-decoration: none;
-  user-select: none;
-  outline: none;
-  transition: all .218s ease 0s;
-  width: 25px;
-  margin: 2.5px;
+.description {
+	margin-top: 3em;
 }
 
-.net:hover .img_net1 {
-  text-decoration: none;
-  user-select: none;
-  outline: none;
-  transition: all .218s ease 0s;
-  width: 20px;
-  margin: 2.5px;
-}
-
-.img_net {
-	width: 30px;
-}
-
-.img_net1 {
-	width: 25px;
-}
-
-.cont {
-	margin-bottom: 25px;
-}
-
-.technic {
-	margin-bottom: 25px;
-}
-
-.ser {
-	margin-bottom: 15px;
-}
-
-.phone {
-	margin-top: 10px;
+.logo_app {
+	float: left;
+	width: 50px;
+	margin: -5px 15px 0 0;
 }
