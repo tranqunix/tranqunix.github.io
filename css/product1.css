@@ -352,6 +352,7 @@ footer {
 	}
 	.load {
 		margin-top: 25px;
+		width: 200px;
 	}
 }
 @media(max-width: 522px){
@@ -378,7 +379,7 @@ footer {
 @media(max-width: 427px){
 	#foo_map, #foo_cont {
 		float: none;
-		margin-left: 30%;
+		margin-left: 20%;
 	}
 	.icon_group {
 		margin-left: 30% !important;

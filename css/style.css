@@ -243,6 +243,19 @@ footer {
 	}
 }
 
+@media(max-width:1200px){
+	.top-nav {
+		padding: 4em 0 0 3em;
+	}
+	.menu {
+		margin-left: 0;
+		margin-right: 3em;
+	}
+	.load {
+		margin-left: 0;
+	}
+}
+
 @media(max-width: 1157px){
 	.menu {
 		margin-right: 20px !important;
@@ -267,18 +280,38 @@ footer {
 	}
 }
 
-@media(max-width:538px){
-	.top-nav ul li {
-	display:block;
-	margin-top: 10px;
+@media(max-width:992px){
+	span{
+		margin-bottom: 4%;
+		margin-left: 44%;
 	}
-	.load, .menu {
-		float: none;
+	.support {
+		margin-top: 45px;
 	}
-	.load {
-		margin-top: 25px;
+	.top-nav {
+		padding-top: 3.5em;
+	}
+	.map {
+		margin-left: 0 !important;
+	}
+	.contacts {
+		margin-left: 0 !important;
 	}
 }
+
+@media(max-width:966px){
+	.top-nav ul li a {
+		margin: 0 0.3em;
+	}
+	.navbar {
+		margin-left: 0px;
+	}
+	.scroll {
+		margin: 0 15px 0 15px;
+	}
+}
+
+
 .service-grid h5{
 	color:#323232;
 	font-size:1.3em;
@@ -336,49 +369,11 @@ footer {
 	padding: 0.5em 0;
 }
 
-@media(max-width:1200px){
-	.top-nav {
-		padding: 4em 0 0 3em;
-	}
-	.menu {
-		margin-left: 0;
-		margin-right: 3em;
-	}
-	.load {
-		margin-left: 0;
-	}
-}
 
-@media(max-width:966px){
-	.top-nav ul li a {
-		margin: 0 0.3em;
-	}
-	.navbar {
-		margin-left: 0px;
-	}
-	.scroll {
-		margin: 0 15px 0 15px;
-	}
-}
 
-@media(max-width:992px){
-	span{
-		margin-bottom: 4%;
-		margin-left: 44%;
-	}
-	.support {
-		margin-top: 45px;
-	}
-	.top-nav {
-		padding-top: 3.5em;
-	}
-	.map {
-		margin-left: 0 !important;
-	}
-	.contacts {
-		margin-left: 0 !important;
-	}
-}
+
+
+
 
 @media(max-width: 861px){
 	.top-nav {
@@ -464,12 +459,27 @@ footer {
 		margin-left: 0 !important;
 	}
 }
+
 @media(max-width: 550px){
 	.load {
 		margin-top: 10px;
 	}
 	.navbar {
 		margin-left: 0;
+	}
+}
+
+@media(max-width:538px){
+	.top-nav ul li {
+	display:block;
+	margin-top: 10px;
+	}
+	.load, .menu {
+		float: none;
+	}
+	.load {
+		margin-top: 25px;
+		width: 200px;
 	}
 }
 
@@ -491,7 +501,7 @@ footer {
 @media(max-width: 427px){
 	#foo_map, #foo_cont {
 		float: none;
-		margin-left: 30%;
+		margin-left: 20%;
 	}
 	.icon_group {
 		margin-left: 30% !important;
@@ -546,6 +556,9 @@ footer {
 @media(max-width: 277px){
 	.map {
 		width: 110px;
+	}
+	.load {
+		margin-left: 0;
 	}
 }
 
