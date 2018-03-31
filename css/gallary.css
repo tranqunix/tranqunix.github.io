@@ -30,6 +30,14 @@ h1,h2,h3,h4,h5,h6,label{
 	margin:0;
 	font-family: 'Montserrat', sans-serif;
 }
+.entreg {
+	max-width: 140px;
+	margin-left: 70%;
+	margin-top: 10px;
+}
+.enter, .reg:hover {
+	color: #000 !important;
+}
 footer {
   background: #282C34;
 }
@@ -59,7 +67,7 @@ footer {
 .navbar {
 	background: #fff;
 	border: 0;
-	padding-top: 3em;
+	padding-top: 1em;
 	margin-left: 20em;
 }
 .icon-bar {
@@ -365,6 +373,9 @@ footer {
 	.contacts {
 		margin-right: 2em;
 	}
+	.entreg {
+		margin-left: 60%;
+	}
 }
 
 @media(max-width: 462px){
@@ -387,6 +398,9 @@ footer {
 	.top-nav {
 		padding-left: 0;
 		margin-left: 1em;
+	}
+	.entreg {
+		margin-left: 50%;
 	}
 }
 
